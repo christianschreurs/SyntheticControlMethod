@@ -1,8 +1,13 @@
 from setuptools import setup
 import os
 
+install_requires = [
+        'numpy>=1.17',
+        'scipy>=1.4.1',
+        'pandas>=1.1.2',
+        'matplotlib>=2.2.3',
+    ]
 
-#Get version
 here = os.path.abspath(os.path.dirname(__file__))
 _version = {}
 _version_path = os.path.join(here, 'SyntheticControlMethod', '__version__.py')
@@ -17,4 +22,5 @@ setup(
     url='https://github.com/OscarEngelbrektson/SyntheticControlMethods',
     download_url='https://github.com/christianschreurs/synthetic-control-method',
     description= "A Python package for Synthetic Control Methodology",
+    install_requires=install_requires
 )
