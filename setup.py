@@ -18,5 +18,3 @@ setup(
     download_url='https://github.com/christianschreurs/synthetic-control-method',
     description= "A Python package for Synthetic Control Methodology",
 )
-
-

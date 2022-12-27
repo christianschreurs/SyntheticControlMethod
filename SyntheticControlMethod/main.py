@@ -73,7 +73,7 @@ class SyntheticControl:
     predict_doppelganger(X)
         Predict target variable for doppelganger using the fitted donor country weights 
         of SCM estimator.
-    
+
         
     Examples
     --------
